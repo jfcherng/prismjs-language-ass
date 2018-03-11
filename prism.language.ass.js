@@ -2,7 +2,7 @@
  * ASS/SSA subtitle syntax highlight for Prism.js
  *
  * @author Jack Cherng <jfcherng@gmail.com>
- * @version 1.0.0
+ * @version 1.0.1
  * @license MIT
  */
 Prism.languages.ass = {
