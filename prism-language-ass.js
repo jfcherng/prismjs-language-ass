@@ -2,7 +2,7 @@
  * ASS/SSA subtitle syntax highlight for Prism.js
  *
  * @author Jack Cherng <jfcherng@gmail.com>
- * @version 1.0.2
+ * @version 1.1.0
  * @license MIT
  */
 Prism.languages.ass = {
@@ -29,13 +29,13 @@ Prism.languages.ass = {
                 pattern: /\d+:\d+:\d+\.\d+/m,
                 alias: 'string'
             },
-            'dashed-arrow': {
-                pattern: /-+>/,
-                alias: 'punctuation'
-            },
             'ass-tag': {
                 pattern: /\{@*\\[^}\r\n]+\}/,
                 alias: 'comment'
+            },
+            'new-line': {
+                pattern: /\\[nNhH]/,
+                alias: 'constant'
             },
             'space': / /
         }
