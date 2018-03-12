@@ -20,7 +20,7 @@ npm install prismjs-language-ass
 
 ```html
 <pre>
-<code class="language-srt">
+<code class="language-ass">
 
 [Script Info]
 Synch Point:1
